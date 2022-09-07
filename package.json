@@ -1,0 +1,52 @@
+{
+  "name": "@magic/iso-3166",
+  "version": "0.0.0",
+  "author": "Wizards & Witches",
+  "description": "iso-3166 country ccodes and subdivisions",
+  "license": "AGPL-3.0",
+  "homepage": "https://magic.github.io/iso-3166",
+  "main": "src/index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "npm test",
+    "test": "t --exclude docs",
+    "format": "f -w --exclude docs",
+    "format:check": "f",
+    "calls": "calls",
+    "build": "bin/bin.mjs && npm run format && NODE_ENV=production magic build",
+    "prod": "NODE_ENV=production magic build serve",
+    "clean": "magic clean",
+    "serve": "magic serve",
+    "dev": "magic dev"
+  },
+  "engines": {
+    "node": ">=14.15.4"
+  },
+  "engineStrict": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magic/iso-3166.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magic/iso-3166/issues"
+  },
+  "devDependencies": {
+    "@magic-modules/git-badges": "0.0.12",
+    "@magic-modules/light-switch": "0.0.11",
+    "@magic-modules/no-spy": "0.0.7",
+    "@magic-modules/pre": "0.0.11",
+    "@magic-themes/docs": "0.0.14",
+    "@magic/core": "0.0.143",
+    "@magic/format": "0.0.48",
+    "@magic/test": "0.2.14"
+  },
+  "files": [
+    "src"
+  ],
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    }
+  ]
+}
