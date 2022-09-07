@@ -13,7 +13,9 @@ State of January of 2022
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 
 ### installation
+
 be in a nodejs project
+
 ```bash
 npm install --save-exact @magic/iso-3166
 ```
@@ -23,7 +25,6 @@ npm install --save-exact @magic/iso-3166
 in yourproject.js
 
 ```javascript
-
 import { countries, subdivisions } from '@magic/iso-3166'
 
 // both countries and subdivisions are regular js arrays.
@@ -53,18 +54,17 @@ const AustrianSubdivisions = subdivisons.filter(sub => sub.country === 'AT')
 { country: 'AT', code: '8', name: 'Vorarlberg', type: 'state' },
 { country: 'AT', code: '9', name: 'Wien', type: 'state' }
 */
-
 ```
 
 ### changelog
 
 #### 0.0.1
+
 first publish
 
 #### 0.0.2 - unreleased
+
 ...
-
-
 
 [npm-image]: https://img.shields.io/npm/v/@magic/iso-3166.svg
 [npm-url]: https://www.npmjs.com/package/@magic/iso-3166
