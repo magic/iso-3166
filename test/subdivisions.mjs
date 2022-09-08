@@ -17,9 +17,12 @@ const tests = subdivisions.map(sub => [
   { fn: sub.country, expect: is.len.eq(2), info: `.country of ${sub.name} has length 2` },
   { fn: sub.country, expect: is.len.eq(2), info: `.country of ${sub.name} has length 2` },
   {
-    fn: countries.find(c => c.a2 === sub.country),
-    expect: is.objectNative,
+    fn: countries.some(c => c.a2 === sub.country),
     info: `${sub.name} has a country with a2: ${sub.country}`,
+  },
+  {
+    fn: sub.alt,
+    expect: t => is.undef(t) || is.objectNative(t) || is.str(t),
   },
 ])
 
