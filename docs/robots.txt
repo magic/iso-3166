@@ -1,0 +1,3 @@
+user-agent: *
+allow: /
+sitemap: https:/magic.github.io/iso-3166/sitemap.xml
