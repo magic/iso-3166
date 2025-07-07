@@ -7,14 +7,21 @@
 
 <url>
   <loc>https:/magic.github.io/iso-3166/</loc>
-  <lastmod>2022-09-08</lastmod>
+  <lastmod>2025-07-07</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.5</priority>
 </url>
 
 <url>
   <loc>https:/magic.github.io/iso-3166/404/</loc>
-  <lastmod>2022-09-08</lastmod>
+  <lastmod>2025-07-07</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.5</priority>
+</url>
+
+<url>
+  <loc>https:/magic.github.io/iso-3166/full/</loc>
+  <lastmod>2025-07-07</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.5</priority>
 </url>
