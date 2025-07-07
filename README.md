@@ -62,7 +62,12 @@ const AustrianSubdivisions = subdivisons.filter(sub => sub.country === 'AT')
 
 first publish
 
-#### 0.0.2 - unreleased
+#### 0.0.2
+
+- add full list of countries to docs
+- update dependencies
+
+#### 0.0.3 - unreleased
 
 ...
 
