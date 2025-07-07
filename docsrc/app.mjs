@@ -1,3 +1,5 @@
+import { countries } from '../src/index.mjs'
+
 export const state = {
   title: '@magic/mime-types',
   description: [
@@ -8,6 +10,8 @@ export const state = {
   menu: [
     { to: '/#install', text: 'install' },
     { to: '/#usage', text: 'usage' },
+    { to: '/full/', text: 'full' },
     { to: '/#source', text: 'source' },
   ],
+  countries,
 }
