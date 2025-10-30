@@ -67,7 +67,11 @@ first publish
 - add full list of countries to docs
 - update dependencies
 
-#### 0.0.3 - unreleased
+#### 0.0.3
+
+- update dependencies
+
+#### 0.0.4 - unreleased
 
 ...
 
