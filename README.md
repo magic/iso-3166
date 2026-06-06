@@ -71,7 +71,12 @@ first publish
 
 - update dependencies
 
-#### 0.0.4 - unreleased
+#### 0.0.4
+
+- fix git repo url in docs
+- update dependencies
+
+#### 0.0.5 - unreleased
 
 ...
 
