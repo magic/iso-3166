@@ -54,7 +54,7 @@ const AustrianSubdivisions = subdivisons.filter(sub => sub.country === 'AT')
   p([
     'the source for this page is in the ',
     Link({
-      to: 'https://github.com/magic/iso-3166/tree/main/docsrc',
+      to: 'https://github.com/magic/iso-3166/tree/master/docsrc',
       text: 'docsrc directory',
     }),
     ' and gets built and published to github using ',
