@@ -10,7 +10,7 @@ export default deep.flatten(
     { fn: country.slug, expect: is.str, info: `.slug of ${country.name} is a string` },
     {
       fn: country.alt,
-      expect: t => is.str(t) || is.undef(t) || is.objectNative(t),
+      expect: (t: string | object | undefined) => is.str(t) || is.undef(t) || is.objectNative(t),
       info: `.slug of ${country.name} is a string`,
     },
     { fn: country.a2, expect: is.str, info: `.a2 of ${country.name} is a string` },
