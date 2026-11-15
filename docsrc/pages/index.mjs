@@ -10,9 +10,7 @@ export const View = state => [
 npm install @magic/iso-3166
 `),
 
-  h3({ id: 'fulllist' }, [
-    Link({ to: '/full/', text: 'Full list'}),
-  ]),
+  h3({ id: 'fulllist' }, [Link({ to: '/full/', text: 'Full list' })]),
 
   h3({ id: 'usage' }, 'import / usage'),
   Pre({
