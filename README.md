@@ -7,10 +7,6 @@ State of January of 2022
 [html-docs](https://magic.github.io/iso-3166/)
 
 [![NPM version][npm-image]][npm-url]
-[![Linux Build Status][travis-image]][travis-url]
-[![Windows Build Status][appveyor-image]][appveyor-url]
-[![Coverage Status][coveralls-image]][coveralls-url]
-[![Known Vulnerabilities][snyk-image]][snyk-url]
 
 ### installation
 
@@ -86,11 +82,3 @@ first publish
 
 [npm-image]: https://img.shields.io/npm/v/@magic/iso-3166.svg
 [npm-url]: https://www.npmjs.com/package/@magic/iso-3166
-[travis-image]: https://img.shields.io/travis/com/magic/iso-3166.svg?branch=master
-[travis-url]: https://travis-ci.com/magic/iso-3166
-[appveyor-image]: https://img.shields.io/appveyor/ci/magic/iso-3166/master.svg
-[appveyor-url]: https://ci.appveyor.com/project/magic/iso-3166/branch/master
-[coveralls-image]: https://coveralls.io/repos/github/magic/iso-3166/badge.svg
-[coveralls-url]: https://coveralls.io/github/magic/iso-3166
-[snyk-image]: https://snyk.io/test/github/magic/iso-3166/badge.svg
-[snyk-url]: https://snyk.io/test/github/magic/iso-3166
