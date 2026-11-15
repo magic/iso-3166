@@ -76,7 +76,12 @@ first publish
 
 - update dependencies
 
-#### 0.0.6 - unreleased
+#### 0.0.6
+
+- add typescript and @magic/lint
+- update dependencies
+
+#### 0.0.7 - unreleased
 
 ...
 
