@@ -33,7 +33,8 @@
     "prod": "NODE_ENV=production magic build serve",
     "clean": "magic clean",
     "serve": "magic serve",
-    "dev": "magic dev"
+    "dev": "magic dev",
+    "lint": "lint"
   },
   "devDependencies": {
     "@magic-libraries/slugify": "0.0.5",
@@ -44,6 +45,7 @@
     "@magic-themes/docs": "0.0.15",
     "@magic/core": "0.0.161",
     "@magic/format": "0.0.79",
+    "@magic/lint": "0.0.5",
     "@magic/test": "0.3.55"
   },
   "engines": {
